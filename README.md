@@ -68,7 +68,8 @@ Send angle commands from the Python script to the TM4CBOARD via the Energia inte
 3. **Control the Servo:**
    - In the Python script, enter the desired angle when prompted.
    - The angle information is sent to the Stellaris Launchpad via the serial connection.
-#First load the Servo_control.ino file and then run the python script to establish connection 
+     
+***First load the Servo_control.ino file and then run the python script to establish connection ***
 ### Code Structure
 
 - `Servo_Control.ino`: Energia code for controlling the servo motor.
