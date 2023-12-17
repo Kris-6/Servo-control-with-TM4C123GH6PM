@@ -36,7 +36,11 @@ Feel free to customize the code for your specific servo motor or application.
 
 
 ## Energia/Stellaris Launchpad Version
-Inputs sent via python script to energia interface to TM4CBOARD to control the servo motor  
+
+### Usage
+
+Send angle commands from the Python script to the TM4CBOARD via the Energia interface for servo motor control on the Stellaris Launchpad.
+
 ### Prerequisites
 
 - Stellaris Launchpad or compatible hardware
@@ -55,7 +59,7 @@ Inputs sent via python script to energia interface to TM4CBOARD to control the s
    - Ensure the correct COM port is selected.(You can view the portNo under ports in Device Manager in Windows)
    - Upload the code to the Stellaris Launchpad.
 
-2. **Python Setup:**9
+2. **Python Setup:**
    - Install Python 3.8(or any other compatible versions) on your computer.
    - Open the provided Python script in a text editor.
    - Update the COM port in the script (replace 'COM6' with the correct COM port).
@@ -64,7 +68,7 @@ Inputs sent via python script to energia interface to TM4CBOARD to control the s
 3. **Control the Servo:**
    - In the Python script, enter the desired angle when prompted.
    - The angle information is sent to the Stellaris Launchpad via the serial connection.
-
+#First load the Servo_control.ino file and then run the python script to establish connection 
 ### Code Structure
 
 - `Servo_Control.ino`: Energia code for controlling the servo motor.
